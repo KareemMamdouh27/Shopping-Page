@@ -1,0 +1,794 @@
+
+
+/* nav - 1 */
+
+.nav-1 .first-nav{
+    background-color: #282828;
+    color: white; 
+}
+
+.icons{
+    margin-right: 16px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.icons li {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+}
+
+.nav-1 .nav-link{
+    color: white !important;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.nav-1 .form-inline li {
+    list-style: none;
+}
+
+/********************************************************/
+
+/* mav - 2 */
+#navbar-1{
+    /* background-color: #fff !important; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#navbar-2 {
+    background-color: white;
+
+}
+.nav-2 {
+    margin: auto !important;
+}
+.logo-nav {
+    width: 120px;
+}
+
+.nav-2 .navbar{
+    background-color: transparent !important;
+}  
+
+.nav-2 ul {
+    border: 2px solid #ddd;
+}
+
+.nav-2 ul li a {
+    color: black !important;
+}
+
+.nav-2 ul li a:hover {
+    border-bottom: 1px solid black; 
+    font-weight: bold;
+}
+
+
+
+
+/***********************************************************/
+
+/* Section-1 */
+
+.sec-1 {
+    background-color: #DFD2B9;
+}
+
+.sec-1 button {
+    background-color: #282828;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    width: 120px;
+}
+
+.sec-1 .sec-1-slider ol li {
+    background-color: black;
+}
+
+.sec-1 .sec-1-slider{
+    padding-left: 150px !important;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+.sec-1 .carousel-caption {
+    color: black !important;
+}
+
+.carousel-item .pic-1-text {
+    position: absolute;
+    bottom: 340px;
+    right: 900px;
+}
+
+.carousel-item .pic-1-text h5 {
+    font-size: 50px;
+}
+
+.carousel-item .pic-2-text {
+    position: absolute;
+    bottom: 340px;
+    left: 850px;
+}
+
+.carousel-item .pic-2-text h5 {
+    font-size: 50px;
+}
+
+.carousel-item .pic-3-text {
+    position: absolute;
+    bottom: 340px;
+    right: 900px
+}
+
+.carousel-item .pic-3-text h5 {
+    font-size: 50px;
+}
+
+
+
+/*******************************************/
+
+/* Demo */
+
+.demo {
+    margin-top: 50px;
+}
+
+.demo .container .row img{
+    width: 270px;
+    margin: 10px;
+}
+
+.demo .container .row img:hover{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.sec-2-text button {
+    background-color: #B9A16B;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.sec-2-text p {
+    margin-top: 10px;
+    font-size: larger;
+}
+
+/******************************/
+
+/* Shop */ 
+
+.main-features {
+    margin-top: 50px;
+}
+
+.the-shop {
+    background-color: #F3F3F3;
+    padding: 30px;
+}
+
+.the-shop .shop-h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.the-shop .p-1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.the-shop .p-2 {
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.the-shop .main-features .card {
+    background: transparent !important; 
+    border: none !important;
+    width: 22rem !important;
+    cursor: pointer;
+}
+
+.the-shop .main-features .card:hover {
+    position: relative;
+    top: 5px;
+}
+
+.user-account{
+    margin-top: 80px;
+}
+
+.user-account img {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.user-account img:hover {
+    position: relative;
+    top: 5px;
+}
+
+/************************/
+
+/* Products */
+
+.products {
+    background-color: #E6EBEF;
+    padding: 30px;
+}
+
+.products .products-h1 {
+    font-size: 90px;
+    font-weight: bold;
+    /* margin-top: 50px; */
+}
+
+.products .p-1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.products .p-2 {
+    font-size: 20px;
+}
+
+.products .Gallery-Styles .card {
+    background: transparent !important; 
+    border: none !important;
+    width: 22rem !important;
+    cursor: pointer;
+}
+
+.products .Gallery-Styles .card:hover {
+    position: relative;
+    top: 5px;
+}
+
+.Gallery-Styles{
+    margin-top: 80px;
+}
+
+/**********************************/
+
+/* Checkout */ 
+
+.checkout {
+    background-color: #393D3F;
+    padding: 30px;
+}
+
+.checkout .checkout-h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    /* margin-top: 50px; */
+}
+
+.checkout .p-1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #B7B7B8;
+}
+
+.checkout img {
+    margin-bottom: 5px;
+}
+
+.checkout .carousel-inner h5 {
+    color: #B7B7B8;
+}
+
+.checkout .carousel-inner p {
+    color: #B7B7B8;
+}
+
+.checkout-cards img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.checkout-cards img:hover{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    box-shadow: 0px 40px 60px -40px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-cards p {
+    color: #B6B7B7;
+    margin-top: 10px;
+}
+
+/****************************************/
+
+/* Mobile */ 
+
+.mobile {
+    background-color: #FFEFC9;
+    padding: 30px;
+}
+
+.mobile-heading {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.mobile .p-1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mobile .p-2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.mobile .img-1{
+    position: relative;
+    right: 50px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.mobile .img-1:hover {
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    box-shadow: 0px 40px 60px -40px rgba(0, 0, 0, 0.2);
+}
+
+.mobile .img-2{
+    position: relative;
+    top: 150px;
+    border-radius: 30px;
+    border: 2px solid #ddd;
+}
+
+.mobile .img-2:hover {
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0px 40px 60px -40px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-h1 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.mobile .mobile-3 img {
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid #ddd;
+    margin-top: 30px;
+}
+
+.mobile .mobile-3 img:hover {
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0px 40px 60px -40px rgba(0, 0, 0, 0.2);
+}
+
+.mobile .mobile-3 p {
+    color: #767676;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/**************************************/
+
+/* Options */
+
+.options {
+    padding: 30px;
+    background-color: #F3F3F3;
+}
+
+.options-heading {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.mobile .p-1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mobile .p-2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.options .carousel-inner img {
+    width: 100%;
+}
+
+.options .carousel-inner {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.options .options-cards img {
+    width: 100%;
+}
+
+.options .options-cards img:hover {
+    position: relative;
+    bottom: 5px;
+    border: 1px solid #ddd;
+}
+
+.customizer-heading {
+    margin-top: 50px;
+}
+
+.options-img {
+    margin-top: 30px;
+}
+
+.options-img:hover {
+    position: relative;
+    bottom: 5px;
+    border: 2px solid #ddd;
+}
+
+/****************************/
+
+/* Features */
+
+.features {
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+.features-pics img{
+    width: 40%;
+    text-align: center;
+}
+
+.features-pics img:hover{
+    position: relative;
+    bottom: 5px;
+}
+
+.features .card {
+    border: none !important;
+}
+
+
+.features-img-1 {
+    margin-left: 90px;
+}
+
+.features-pics-3 {
+    margin-left: 80px;
+}
+
+.features-heading {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.features .p-1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.premade img:hover {
+    position: relative;
+    bottom: 5px;
+    border: 2px solid #ddd;
+  
+}
+
+.permium-heading {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.premade h1 {
+    margin-top: 50px;
+}
+
+.premade p {
+    margin-bottom: 30px;
+}
+
+
+/******************************/
+
+/* blog */
+
+.blog {
+    background-color: #F4F4F4;
+}
+
+.blog-heading {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.blog .p-1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.blog-img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.blog-cards img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.blog-cards img:hover {
+    position: relative;
+    bottom: 5px;
+    border: 2px solid #ddd;
+}
+
+/*********************************/
+
+/* Icon */ 
+
+.btn-up {
+    font-size: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color:#282828;
+    
+}
+
+.fa-arrow-circle-up {
+    color: #282828;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .logo-nav {
+        width: 62px;
+    }
+    .sec-1{
+        background-color: transparent;
+    }
+    .sec-1 .carousel-inner {
+        width: 558px;
+        margin-left: -49px;
+    }
+    .nav-2 ul {
+        border: 2px solid #ddd;
+        margin: 0 !important;
+    }
+    .the-shop .main-features .card {
+        margin-left: 176px;
+    
+    }
+    .products .Gallery-Styles .card {
+        margin-left: 176px;
+    
+    }
+    .mobile-heading {
+        font-size: 68px;
+        font-weight: bold;
+    }
+    .mobile .img-1{
+        margin-left: 22px;
+        margin-bottom: 30px;
+    }
+    .mobile .img-2 {
+        position: relative;
+        top: -5px;
+    }
+    .mobile .mobile-3 p {
+        text-align: center;
+    }
+    .options-cards {
+        text-align: center;
+    }
+    .options-cards h4 {
+        margin-top: 10px;
+    }
+    .options-img {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .features-pics {
+        position: relative;
+        left: 189px;
+    }
+    .features-cards-2{
+        position: relative;
+        left: 189px;
+    }
+    .premade-card {
+        position: relative;
+        left: 189px;
+    }
+    .premade-card-2 {
+        position: relative;
+        left: 189px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .nav-1{
+        width: 404px;
+    }
+    .sec-1 .carousel-inner {
+        width: 353px;
+        margin-left: -135px;
+    }
+    .demo .container {
+        margin-left: 30px;
+    }
+    .the-shop .shop-h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .the-shop .main-features .card {
+        margin-left: -31px;
+    }
+    .the-shop .main-features .card-body {
+        text-align: center;
+    }
+    .user-account h1 {
+        font-size: 31px;
+    }
+    .products{
+        padding: 0;
+    }
+    .products .products-h1 {
+        padding: 7px;
+        font-size: 57px;
+    }
+    .products .Gallery-Styles .card {
+        margin-left: 0px;
+    }
+    .Gallery-Styles .card-body{
+        text-align: center;
+    }
+    .checkout .checkout-h1 {
+        font-size: 44px;
+    }
+    .checkout .p-1 {
+        font-size: 12px;
+    }
+    .checkout-cards {
+        text-align: center;
+    }
+    .mobile-heading {
+        font-size: 33px;
+    }
+    .mobile .p-1 {
+        font-size: 16px;
+
+    }
+    .mobile .p-2 {
+        font-size: 16px;
+    }
+    .mobile .img-1 {
+        width: 318px;
+    }
+    .mobile .img-2 {
+        position: relative;
+        top: -5px;
+        right: 29px;
+        width: 318px;
+    }
+    .mobile-h1 {
+        font-size: 29px;
+        margin-top: 30px;
+    }
+    .nav-2 ul li {
+        font-size: 12px;
+    }
+    .nav-2 .navbar {
+        background-color: transparent !important;
+        margin-left: -28px;
+        margin-bottom: 10px;
+    }
+    .w-100 {
+        width: 100%!important;
+        margin-top: 23px;
+    }
+    .demo .container {
+        margin-left: 0px;
+    }
+    .demo .demo-cont{
+        margin-left: 30px;
+    }
+    .options-heading {
+        font-size: 49px;
+        font-weight: bold;
+    }
+    .flexable-heading {
+        font-size: 24px;
+        margin-bottom: 11px;
+    }
+    .features-heading {
+        font-size: 44px;
+        font-weight: bold;
+    }
+    .features-pics {
+        position: relative;
+        left: 5px;
+    }
+    .features-cards-2 {
+        position: relative;
+        left: 5px;
+    }
+    .premade-card{
+        left: 0;
+    }
+    .premade-card-2{
+        left: 0;
+    }
+    .blog h1 {
+        font-size: 70   px;
+        font-weight: bold;
+    }
+
+}
